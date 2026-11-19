@@ -21,7 +21,7 @@ for j in jars:
         c,s=sides.get(v["project_id"],("required","required"))
         files.append({"path":"mods/"+os.path.basename(j),"hashes":{"sha1":sha1,"sha512":sha512},"env":{"client":c if c!="unknown" else "required","server":s if s!="unknown" else "required"},"downloads":[f["url"]],"fileSize":size})
     else: over.append(j)
-idx={"formatVersion":1,"game":"minecraft","versionId":"1.0.0","name":"Matcha Latte","summary":"Create-focused NeoForge 1.21.1 pack: Create, Mekanism, AE2, Oritech, Modern Industrialization, dimensions and decor.","files":files,"dependencies":{"minecraft":"1.21.1","neoforge":"21.1.266"}}
+idx={"formatVersion":1,"game":"minecraft","versionId":"1.0.1","name":"Matcha Latte","summary":"Create-focused NeoForge 1.21.1 pack: Create, Mekanism, AE2, Oritech, Modern Industrialization, dimensions and decor.","files":files,"dependencies":{"minecraft":"1.21.1","neoforge":"21.1.266"}}
 with zipfile.ZipFile(OUT,"w",zipfile.ZIP_DEFLATED) as z:
     z.writestr("modrinth.index.json",json.dumps(idx,indent=2))
     for j in over: z.write(j,"overrides/mods/"+os.path.basename(j))
