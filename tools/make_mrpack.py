@@ -8,20 +8,17 @@ jars=sorted(glob.glob(INST+"/mods/*.jar")); info={}
 for j in jars:
     b=open(j,"rb").read(); info[j]=(hashlib.sha1(b).hexdigest(),hashlib.sha512(b).hexdigest(),len(b))
 found=post("/version_files",{"hashes":[v[0] for v in info.values()],"algorithm":"sha1"})
-pids=sorted({v["project_id"] for v in found.values()})
-sides={}
-for i in range(0,len(pids),50):
-    q=json.dumps(pids[i:i+50]); 
-    for p in get("/projects?ids="+urllib.parse.quote(q) if False else "/projects?ids="+__import__("urllib.parse").parse.quote(q)): sides[p["id"]]=(p["client_side"],p["server_side"])
+# Every mod is marked required on both sides. Copying Modrinth's per-project client_side/server_side
+# made Prism skip "unsupported" mods (Lithostitched, YUNG's, Dungeons Arise...) and import "optional"
+# ones disabled (Create, JEI...), but singleplayer runs the server inside the client and needs them all.
 files=[];over=[]
 for j in jars:
     sha1,sha512,size=info[j]; v=found.get(sha1)
     if v:
         f=next(x for x in v["files"] if x["hashes"]["sha1"]==sha1)
-        c,s=sides.get(v["project_id"],("required","required"))
-        files.append({"path":"mods/"+os.path.basename(j),"hashes":{"sha1":sha1,"sha512":sha512},"env":{"client":c if c!="unknown" else "required","server":s if s!="unknown" else "required"},"downloads":[f["url"]],"fileSize":size})
+        files.append({"path":"mods/"+os.path.basename(j),"hashes":{"sha1":sha1,"sha512":sha512},"env":{"client":"required","server":"required"},"downloads":[f["url"]],"fileSize":size})
     else: over.append(j)
-idx={"formatVersion":1,"game":"minecraft","versionId":"1.0.1","name":"Matcha Latte","summary":"Create-focused NeoForge 1.21.1 pack: Create, Mekanism, AE2, Oritech, Modern Industrialization, dimensions and decor.","files":files,"dependencies":{"minecraft":"1.21.1","neoforge":"21.1.266"}}
+idx={"formatVersion":1,"game":"minecraft","versionId":"1.0.1-hotfix","name":"Matcha Latte","summary":"Create-focused NeoForge 1.21.1 pack: Create, Mekanism, AE2, Oritech, Modern Industrialization, dimensions and decor.","files":files,"dependencies":{"minecraft":"1.21.1","neoforge":"21.1.266"}}
 with zipfile.ZipFile(OUT,"w",zipfile.ZIP_DEFLATED) as z:
     z.writestr("modrinth.index.json",json.dumps(idx,indent=2))
     for j in over: z.write(j,"overrides/mods/"+os.path.basename(j))
