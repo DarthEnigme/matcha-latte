@@ -1,0 +1,140 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "ae2"
+	group: "CAFC8B80BD3BDDF2"
+	icon: {
+		id: "ae2:controller"
+	}
+	id: "B3915EC69756EFDE"
+	title: "Applied Energistics 2 and Addons"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ae2:controller"
+			}
+			id: "219F0487EEA0DAE9"
+			subtitle: "Applied Energistics 2 and Addons"
+			title: "&bApplied Energistics 2&r"
+			description: ["Digital storage and autocrafting networks.", "Craft or obtain Controller to complete this quest."]
+			tasks: [{
+				id: "FF89888806710934"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "advanced_ae:adv_pattern_provider"
+			}
+			id: "70FF93A954336050"
+			subtitle: "Applied Energistics 2 and Addons"
+			title: "&bAdvanced AE&r"
+			description: ["Quantum tech, bigger pattern providers and armour with cards.", "Craft or obtain Adv Pattern Provider to complete this quest."]
+			tasks: [{
+				id: "790A3E9D961E8177"
+				item: { count: 1, id: "advanced_ae:adv_pattern_provider" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "F4BE70E3AA63CCCB"
+			subtitle: "Applied Energistics 2 and Addons"
+			title: "&bAE2CraftingTreeRefreshed&r"
+			description: ["Shows the full crafting tree of an AE2 recipe. Works in the background.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "C82315D9CFBF87BA"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "ae2wtlib:wireless_universal_terminal"
+			}
+			id: "499301D85AE1E399"
+			subtitle: "Applied Energistics 2 and Addons"
+			title: "&bAE2WTLib&r"
+			description: ["Wireless terminals you carry with you.", "Craft or obtain Wireless Universal Terminal to complete this quest."]
+			tasks: [{
+				id: "558B0F3FD4772F07"
+				item: { count: 1, id: "ae2wtlib:wireless_universal_terminal" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "appflux:fe_1k_cell"
+			}
+			id: "D853BE17FD6C0371"
+			subtitle: "Applied Energistics 2 and Addons"
+			title: "&bAppliedFlux&r"
+			description: ["Stores and moves energy (FE) inside an ME network.", "Craft or obtain Fe 1K Cell to complete this quest."]
+			tasks: [{
+				id: "7B301BA6927FDA5D"
+				item: { count: 1, id: "appflux:fe_1k_cell" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "expandedae:exp_pattern_provider"
+			}
+			id: "B32CDC9CAA6078B5"
+			subtitle: "Applied Energistics 2 and Addons"
+			title: "&bExpanded AE&r"
+			description: ["Larger pattern providers and crafting accelerators.", "Craft or obtain Exp Pattern Provider to complete this quest."]
+			tasks: [{
+				id: "FC17EA2DCCE70532"
+				item: { count: 1, id: "expandedae:exp_pattern_provider" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "merequester:requester"
+			}
+			id: "F133852C791A30DC"
+			subtitle: "Applied Energistics 2 and Addons"
+			title: "&bME Requester&r"
+			description: ["Requests items from the network when stock runs low.", "Craft or obtain Requester to complete this quest."]
+			tasks: [{
+				id: "35D12B5B59A7323A"
+				item: { count: 1, id: "merequester:requester" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "megacells:item_storage_cell_1m"
+			}
+			id: "018BD677FFF6E6FC"
+			subtitle: "Applied Energistics 2 and Addons"
+			title: "&bMEGA Cells&r"
+			description: ["Much bigger storage cells and crafting storage.", "Craft or obtain Item Storage Cell 1M to complete this quest."]
+			tasks: [{
+				id: "EE2332B47449BC79"
+				item: { count: 1, id: "megacells:item_storage_cell_1m" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+}

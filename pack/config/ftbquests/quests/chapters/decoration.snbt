@@ -1,0 +1,388 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "decoration"
+	group: "CAFC8B80BD3BDDF2"
+	icon: {
+		id: "chipped:botanist_workbench"
+	}
+	id: "7BC83CFE2D6F7913"
+	title: "Decoration and Cosmetics"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "amendments:dye_bottle"
+			}
+			id: "57721849390045B4"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bAmendments&r"
+			description: ["Small tweaks and extra uses for vanilla blocks.", "Craft or obtain Dye Bottle to complete this quest."]
+			tasks: [{
+				id: "B063579F592F0DEF"
+				item: { count: 1, id: "amendments:dye_bottle" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "another_furniture:oak_chair"
+			}
+			id: "7BB8B8D853A319ED"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bAnother Furniture&r"
+			description: ["Chairs, tables and cabinets.", "Craft or obtain Oak Chair to complete this quest."]
+			tasks: [{
+				id: "DB10BA26FE0E9B74"
+				item: { count: 1, id: "another_furniture:oak_chair" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "architects_palette:abyssaline"
+			}
+			id: "C35EA5AA248701DA"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bArchitects Palette&r"
+			description: ["Many decorative building blocks.", "Craft or obtain Abyssaline to complete this quest."]
+			tasks: [{
+				id: "DF4F65F41AFD61C2"
+				item: { count: 1, id: "architects_palette:abyssaline" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "chipped:botanist_workbench"
+			}
+			id: "ADD800CCEE6FC8E5"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bChipped&r"
+			description: ["Workbenches that make hundreds of block variants.", "Craft or obtain Botanist Workbench to complete this quest."]
+			tasks: [{
+				id: "DFBF0CC2B69857F5"
+				item: { count: 1, id: "chipped:botanist_workbench" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "comforts:hammock_white"
+			}
+			id: "B1EE620D40B760A9"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bComforts&r"
+			description: ["Sleeping bags, hammocks and rest.", "Craft or obtain Hammock White to complete this quest."]
+			tasks: [{
+				id: "CA0424B1D4C76813"
+				item: { count: 1, id: "comforts:hammock_white" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "EDD69BA56FA2CC6D"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bCosmeticArmorReworkedForked&r"
+			description: ["Cosmetic armour slots. Show another look over your armour.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "5058AFB1B771B600"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "decorative_blocks:chain"
+			}
+			id: "1B5456DA7C488DC2"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bDecorative Blocks Reborn&r"
+			description: ["Chains, braziers and extra decorative blocks.", "Craft or obtain Chain to complete this quest."]
+			tasks: [{
+				id: "235CC76291E87642"
+				item: { count: 1, id: "decorative_blocks:chain" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "domum_ornamentum:architectscutter"
+			}
+			id: "D4535FAF4F06A7C3"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bDomum Ornamentum&r"
+			description: ["Many block variants and a cutter to craft them.", "Craft or obtain Architectscutter to complete this quest."]
+			tasks: [{
+				id: "38A21113F9A50CA5"
+				item: { count: 1, id: "domum_ornamentum:architectscutter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "fairylights:hanging_lights"
+			}
+			id: "3F28E1CDB57DA4FA"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bFairy Lights&r"
+			description: ["String lights and fairy lights.", "Craft or obtain Hanging Lights to complete this quest."]
+			tasks: [{
+				id: "31303199D63AE3EF"
+				item: { count: 1, id: "fairylights:hanging_lights" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "framedblocks:framed_cube"
+			}
+			id: "9DFB115EF5B741A0"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bFramedBlocks&r"
+			description: ["Framed blocks that copy the look of another block.", "Craft or obtain Framed Cube to complete this quest."]
+			tasks: [{
+				id: "9D767B1EEFFDD168"
+				item: { count: 1, id: "framedblocks:framed_cube" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "handcrafted:oak_table"
+			}
+			id: "C2F3ABCDB2CFA34C"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bHandcrafted&r"
+			description: ["Furniture and cosy decoration.", "Craft or obtain Oak Table to complete this quest."]
+			tasks: [{
+				id: "C61B2EB59317B3C8"
+				item: { count: 1, id: "handcrafted:oak_table" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "immersive_furniture:artisans_workstation"
+			}
+			id: "0879895086802780"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bImmersive Furniture&r"
+			description: ["Design your own furniture in game.", "Craft or obtain Artisans Workstation to complete this quest."]
+			tasks: [{
+				id: "898A5CCC3E01D133"
+				item: { count: 1, id: "immersive_furniture:artisans_workstation" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "mcwbridges:oak_bridge_pier"
+			}
+			id: "6AB56E5979BC66BF"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bMacaw's Bridges&r"
+			description: ["Bridges and bridge parts.", "Craft or obtain Oak Bridge Pier to complete this quest."]
+			tasks: [{
+				id: "D455BDA8C5AD625A"
+				item: { count: 1, id: "mcwbridges:oak_bridge_pier" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "mcwdoors:oak_modern_door"
+			}
+			id: "4F4123CC7C026B2D"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bMacaw's Doors&r"
+			description: ["Many styles of doors.", "Craft or obtain Oak Modern Door to complete this quest."]
+			tasks: [{
+				id: "F0F1CFDFCA9ADDBE"
+				item: { count: 1, id: "mcwdoors:oak_modern_door" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "mcwfences:oak_picket_fence"
+			}
+			id: "3FC522E14316CA6E"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bMacaw's Fences and Walls&r"
+			description: ["Fences, gates and walls.", "Craft or obtain Oak Picket Fence to complete this quest."]
+			tasks: [{
+				id: "B779B15E0A912756"
+				item: { count: 1, id: "mcwfences:oak_picket_fence" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "mcwlights:chain_wall_lantern"
+			}
+			id: "A31A5785AD329772"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bMacaw's Lights and Lamps&r"
+			description: ["Lamps and lights.", "Craft or obtain Chain Wall Lantern to complete this quest."]
+			tasks: [{
+				id: "42EF14F4EA9E52C4"
+				item: { count: 1, id: "mcwlights:chain_wall_lantern" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "F0B79CC0C419FCED"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bMacaw's Paintings&r"
+			description: ["Extra paintings to hang on walls.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "B4D214931FF3CA43"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "mcwroofs:oak_roof"
+			}
+			id: "80793DC6BCB05C24"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bMacaw's Roofs&r"
+			description: ["Roofs in many shapes and materials.", "Craft or obtain Oak Roof to complete this quest."]
+			tasks: [{
+				id: "0826F079DFF30001"
+				item: { count: 1, id: "mcwroofs:oak_roof" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "mcwtrpdoors:oak_barn_trapdoor"
+			}
+			id: "7A9616F7475F012F"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bMacaw's Trapdoors&r"
+			description: ["Trapdoors in many styles.", "Craft or obtain Oak Barn Trapdoor to complete this quest."]
+			tasks: [{
+				id: "CA1A98AA01232DAE"
+				item: { count: 1, id: "mcwtrpdoors:oak_barn_trapdoor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "mcwwindows:oak_window"
+			}
+			id: "B8A41F753D225C19"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bMacaw's Windows&r"
+			description: ["Windows and blinds.", "Craft or obtain Oak Window to complete this quest."]
+			tasks: [{
+				id: "54639502DB921808"
+				item: { count: 1, id: "mcwwindows:oak_window" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "68EAB772F4EF0F19"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bReconnectible Chains&r"
+			description: ["Chains and ropes that can connect between blocks.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "651F94F038C99B7C"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "simplehats:burgerhat"
+			}
+			id: "414D0B71FB3460D0"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bSimpleHats&r"
+			description: ["Hats to wear.", "Craft or obtain Burgerhat to complete this quest."]
+			tasks: [{
+				id: "7590D293565A986B"
+				item: { count: 1, id: "simplehats:burgerhat" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "supplementaries:rope"
+			}
+			id: "BA8333B02A2ACF8E"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bSupplementaries&r"
+			description: ["Many small utility and decoration items.", "Craft or obtain Rope to complete this quest."]
+			tasks: [{
+				id: "F4960F3F9027E4D6"
+				item: { count: 1, id: "supplementaries:rope" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "xtonesreworked:xtone_tile"
+			}
+			id: "E32DB0497598C8C9"
+			subtitle: "Decoration and Cosmetics"
+			title: "&bXTones Reworked&r"
+			description: ["Two-tone building blocks.", "Craft or obtain Xtone Tile to complete this quest."]
+			tasks: [{
+				id: "D2A2635FB51A8A2D"
+				item: { count: 1, id: "xtonesreworked:xtone_tile" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+	]
+}

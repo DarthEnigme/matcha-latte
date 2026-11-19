@@ -1,0 +1,300 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "dimensions"
+	group: "CAFC8B80BD3BDDF2"
+	icon: {
+		id: "aether:aether_portal_frame"
+	}
+	id: "14C1A4DEAA50E72C"
+	title: "Dimensions and Exploration"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "betterend:aeternium_ingot"
+			}
+			id: "6920B6B2C41EF7D0"
+			subtitle: "Dimensions and Exploration"
+			title: "&bBetter End&r"
+			description: ["A new End with new biomes, ores and monsters. Needs the BetterX world type.", "Craft or obtain Aeternium Ingot to complete this quest."]
+			tasks: [{
+				id: "9CB59358B7354562"
+				item: { count: 1, id: "betterend:aeternium_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "deeperdarker:soul_elytra"
+			}
+			id: "52023C5E04402246"
+			subtitle: "Dimensions and Exploration"
+			title: "&bDeeper and Darker&r"
+			description: ["Expands the Deep Dark with a new dimension, the Otherside.", "Craft or obtain Soul Elytra to complete this quest."]
+			tasks: [{
+				id: "2B5BC1CE8D39A4D0"
+				item: { count: 1, id: "deeperdarker:soul_elytra" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "eternal_starlight:blue_starlight_crystal_shard"
+			}
+			id: "9BEC1CE251601779"
+			subtitle: "Dimensions and Exploration"
+			title: "&bEternal Starlight&r"
+			description: ["A magical dimension full of crystals and bosses.", "Craft or obtain Blue Starlight Crystal Shard to complete this quest."]
+			tasks: [{
+				id: "7B2E055150C08673"
+				item: { count: 1, id: "eternal_starlight:blue_starlight_crystal_shard" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "cataclysm:ignitium_ingot"
+			}
+			id: "6626B5055D2836B9"
+			subtitle: "Dimensions and Exploration"
+			title: "&bL_Ender's Cataclysm&r"
+			description: ["Large bosses, weapons and dungeons across the world.", "Craft or obtain Ignitium Ingot to complete this quest."]
+			tasks: [{
+				id: "70EFE358ED7BFFC9"
+				item: { count: 1, id: "cataclysm:ignitium_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "BBBA4BA472845B4D"
+			subtitle: "Dimensions and Exploration"
+			title: "&bTectonic&r"
+			description: ["Reshapes the overworld terrain with bigger mountains. Works in the background.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "DB5038EC421CB784"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "E3896831D55251EB"
+			subtitle: "Dimensions and Exploration"
+			title: "&bTerralith&r"
+			description: ["Adds many new overworld biomes. Works in the background.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "ADC3369682EB57AF"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "aether:zanite_gemstone"
+			}
+			id: "9866BF35FB07BE71"
+			subtitle: "Dimensions and Exploration"
+			title: "&bThe Aether&r"
+			description: ["A heaven dimension reached with a glowstone portal in water.", "Craft or obtain Zanite Gemstone to complete this quest."]
+			tasks: [{
+				id: "352D9BDF22671949"
+				item: { count: 1, id: "aether:zanite_gemstone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "twilightforest:ironwood_ingot"
+			}
+			id: "114DABE12208383C"
+			subtitle: "Dimensions and Exploration"
+			title: "&bThe Twilight Forest&r"
+			description: ["A dark forest dimension with bosses, reached by a diamond in a flower pool.", "Craft or obtain Ironwood Ingot to complete this quest."]
+			tasks: [{
+				id: "8C3C38C5B430C8B8"
+				item: { count: 1, id: "twilightforest:ironwood_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "undergarden:cloggrum_ingot"
+			}
+			id: "161F4F48E46563ED"
+			subtitle: "Dimensions and Exploration"
+			title: "&bThe Undergarden&r"
+			description: ["A dark underground dimension, reached with a catalyst.", "Craft or obtain Cloggrum Ingot to complete this quest."]
+			tasks: [{
+				id: "BB0813CD967FB9BE"
+				item: { count: 1, id: "undergarden:cloggrum_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "351B3BC82C6FE106"
+			subtitle: "Dimensions and Exploration"
+			title: "&bTidal Towns&r"
+			description: ["Adds coastal towns. Works in the background.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "1DD0B90562DF5C97"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "B50F4BE6463B1611"
+			subtitle: "Dimensions and Exploration"
+			title: "&bTowns and Towers&r"
+			description: ["Adds villages, towers and outposts. Works in the background.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "09759DF8F3ACDAFD"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "BF92DD9304517C1B"
+			subtitle: "Dimensions and Exploration"
+			title: "&bWaystones&r"
+			description: ["Teleport between waystones you have visited.", "Craft or obtain Waystone to complete this quest."]
+			tasks: [{
+				id: "06E804E412204165"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "440AA1E8081489EC"
+			subtitle: "Dimensions and Exploration"
+			title: "&bWhen Dungeons Arise&r"
+			description: ["Adds large dungeons and castles to the world.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "464BE871A3E5A75D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "B8BC5DBBCB9AE578"
+			subtitle: "Dimensions and Exploration"
+			title: "&bWhen Dungeons Arise: Seven Seas&r"
+			description: ["Adds ships and sea structures.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "DEA4C511EFB39A8F"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "CABA701729860857"
+			subtitle: "Dimensions and Exploration"
+			title: "&bYUNG's Better Desert Temples&r"
+			description: ["A new look for desert temples.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "42CCB281779379BF"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "9D67A6CD075666AE"
+			subtitle: "Dimensions and Exploration"
+			title: "&bYUNG's Better Dungeons&r"
+			description: ["A new look for dungeons.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "7FDF84D2187FAA1F"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "A199C9A0510CD7DC"
+			subtitle: "Dimensions and Exploration"
+			title: "&bYUNG's Better Jungle Temples&r"
+			description: ["A new look for jungle temples.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "17F297856593845F"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "B7C8E7E5C68C1483"
+			subtitle: "Dimensions and Exploration"
+			title: "&bYUNG's Better Mineshafts&r"
+			description: ["A new look for mineshafts.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "DB843EFE18F45D19"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			id: "70A2B89A1B00E086"
+			subtitle: "Dimensions and Exploration"
+			title: "&bYUNG's Better Nether Fortresses&r"
+			description: ["A new look for nether fortresses.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "412165F2C2B752F5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "1FCD4673865036CD"
+			subtitle: "Dimensions and Exploration"
+			title: "&bYUNG's Better Ocean Monuments&r"
+			description: ["A new look for ocean monuments.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "181B162E30960FD4"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "9F44812DD9CE15F4"
+			subtitle: "Dimensions and Exploration"
+			title: "&bYUNG's Better Strongholds&r"
+			description: ["A new look for strongholds.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "34272CBC60808E51"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+	]
+}

@@ -1,0 +1,106 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "tips_start"
+	group: "035B457CBBF3F45A"
+	icon: {
+		id: "minecraft:book"
+	}
+	id: "C1C1A0B7FCD03D9E"
+	title: "Tips: Getting Started"
+	images: [ ]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:book"
+			}
+			id: "C4227AE674A9F476"
+			subtitle: "Tip"
+			title: "&eWelcome&r"
+			description: ["This book is a reminder of what is in the pack, not a progression guide. Every mod chapter has one quest per mod with a short description and one item to get. Click a quest to read it.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "BFA4C388C577484C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "BF2674879BDC2C01"
+			subtitle: "Tip"
+			title: "&eHow to use this book&r"
+			description: ["Open it with the O key (it can be rebound in Controls). Quests that ask for an item complete when the item is in your inventory. Quests marked as background mods just need a click once you have read them.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "40254582054062C5"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "6F26DFEB96CA208D"
+			subtitle: "Tip"
+			title: "&eLook things up in JEI&r"
+			description: ["Press R over an item to see how it is made and U to see what it is used in. Press F3+H to show item IDs in tooltips.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "CF2F39F49659B86A"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:grass_block"
+			}
+			id: "5F0C0C5BCEEA6BBE"
+			subtitle: "Tip"
+			title: "&eCreate worlds correctly&r"
+			description: ["Choose the BetterX world type on the More tab when creating a world. Without it BetterEnd's End does not generate and you get the vanilla End.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "68F1E7129F1906E8"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:redstone"
+			}
+			id: "96FAF3AC46871EF5"
+			subtitle: "Tip"
+			title: "&eHardware&r"
+			description: ["The pack is tuned for 8 GB of memory (Xms = Xmx) with G1GC. Close other programs while playing. Startup takes about a minute.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "27271A65AE986F24"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:ender_eye"
+			}
+			id: "89BA3505D9F9AFF3"
+			subtitle: "Tip"
+			title: "&eFirst visit to a new End&r"
+			description: ["The first time you enter a freshly generated BetterEnd End the server can freeze for 20 to 60 seconds while chunks generate. It recovers on its own.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "EB002C51ACB7914C"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+}

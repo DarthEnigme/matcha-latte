@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.bak
+modlist.md
+modlist-discord.md
+next-steps.md
+missing-mods.md
+mods.md
+DEVNOTES.md

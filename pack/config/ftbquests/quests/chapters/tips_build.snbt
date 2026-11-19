@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "tips_build"
+	group: "035B457CBBF3F45A"
+	icon: {
+		id: "minecraft:bricks"
+	}
+	id: "ABA09A4684FDCFE7"
+	title: "Tips: Building and Decoration"
+	images: [ ]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "chipped:botanist_workbench"
+			}
+			id: "35C59AE1F2CF5514"
+			subtitle: "Tip"
+			title: "&eMany block variants&r"
+			description: ["Chipped workbenches make hundreds of block variants from one material.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "BECF269A7EF979F4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "framedblocks:framed_cube"
+			}
+			id: "6D1D9A61BAC1A57B"
+			subtitle: "Tip"
+			title: "&eLook-alike blocks&r"
+			description: ["FramedBlocks and Create Copycats+ copy the look of another block. Use them for slopes and unusual shapes.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "1DE5EF4E1E6D2C45"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "constructionwand:stone_wand"
+			}
+			id: "A901C7E009BA0D9A"
+			subtitle: "Tip"
+			title: "&eWands&r"
+			description: ["A Construction Wand places many blocks at once. Check its options in-game.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "AFA421EE693A859B"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "handcrafted:oak_table"
+			}
+			id: "464D867C0E11B631"
+			subtitle: "Tip"
+			title: "&eFurniture&r"
+			description: ["Several furniture mods are installed: Handcrafted, Another Furniture, Immersive Furniture, Comforts, Macaw's and more. Search JEI by a word like 'chair'.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "021037A866B405A5"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "simplehats:burgerhat"
+			}
+			id: "57F3A8283644908A"
+			subtitle: "Tip"
+			title: "&eHats and cosmetics&r"
+			description: ["SimpleHats and Cosmetic Armor add looks without changing your armour stats.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "57B21F3603C2183F"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

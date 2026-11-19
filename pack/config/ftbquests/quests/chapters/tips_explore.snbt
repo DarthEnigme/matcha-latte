@@ -1,0 +1,151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "tips_explore"
+	group: "035B457CBBF3F45A"
+	icon: {
+		id: "minecraft:map"
+	}
+	id: "8109ED07C7D89A49"
+	title: "Tips: Exploration"
+	images: [ ]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "29E1D6947CDD770E"
+			subtitle: "Tip"
+			title: "&eFind structures&r"
+			description: ["The Explorer's Compass finds structures. Its recipe is much harder in this pack and needs a Recovery Compass plus Create, Twilight Forest and Aether materials.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "C249278F86BFE5E6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "8C8F35EAB68AE96F"
+			subtitle: "Tip"
+			title: "&eFind biomes&r"
+			description: ["The Nature's Compass finds biomes. Its recipe is also harder and needs a Recovery Compass plus several modded materials.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "4BBF7FD2AB8A230A"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "20D4877C41B42836"
+			subtitle: "Tip"
+			title: "&eWaystones&r"
+			description: ["Place a waystone and activate it by right-clicking. You can then teleport between the waystones you have visited.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "ABB93E6810AD58FB"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "F494C4A1616018B3"
+			subtitle: "Tip"
+			title: "&eMap and claims&r"
+			description: ["Journeymap shows the map and lets you set waypoints. FTB Chunks has its own map where you can claim chunks and keep them loaded. Claim and force-load limits are 999 and 512.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "70B2B68F5C75FC2C"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "twilightforest:ironwood_ingot"
+			}
+			id: "49EDA70842DBEC73"
+			subtitle: "Tip"
+			title: "&eTwilight Forest portal&r"
+			description: ["Make a small pool of water surrounded by flowers or mushrooms, then throw a diamond into it.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "0E6FCCF676AE2B5A"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "aether:aether_portal_frame"
+			}
+			id: "38A407E752A307FE"
+			subtitle: "Tip"
+			title: "&eAether portal&r"
+			description: ["Build a frame of glowstone and light it with water.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "90AB39C95BD6DB3A"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "gravestone:gravestone"
+			}
+			id: "30BD44F29C90C5B8"
+			subtitle: "Tip"
+			title: "&eDying&r"
+			description: ["When you die a gravestone holds your items, including curios. Gravestone's Obituary tells you where the grave is. Check the coordinates in chat.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "E2C283122A329801"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "lootr:lootr_chest"
+			}
+			id: "97EB450CEA31A576"
+			subtitle: "Tip"
+			title: "&eShared loot&r"
+			description: ["Chests in structures are Lootr chests, so every player gets their own loot. BetterEnd's own chests are not Lootr chests.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "B791AE6B9E3DCC4B"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "paraglider:paraglider"
+			}
+			id: "19EE7F46AC474C0B"
+			subtitle: "Tip"
+			title: "&eGlide&r"
+			description: ["The Paraglider uses stamina. Land before it runs out.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "3B5A8B4FAD75D904"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,67 @@
+#Server config settings
+[server]
+
+	#Iron Cloud Boots Settings
+	[server.ironCloudBoots]
+		# Default: 1
+		# Range: 0 ~ 10
+		jumpBoostLevel = 1
+		# Default: 0.05
+		# Range: 0.0 ~ 5.0
+		speedModifier = 0.05
+		# Default: 0.01
+		# Range: 0.0 ~ 5.0
+		flyingSpeedModifier = 0.01
+		negatesFallDamage = true
+
+	#Gold Cloud Boots Settings
+	[server.goldCloudBoots]
+		# Default: 2
+		# Range: 0 ~ 10
+		jumpBoostLevel = 2
+		# Default: 0.1
+		# Range: 0.0 ~ 5.0
+		speedModifier = 0.1
+		# Default: 0.02
+		# Range: 0.0 ~ 5.0
+		flyingSpeedModifier = 0.02
+		negatesFallDamage = true
+
+	#Diamond Cloud Boots Settings
+	[server.diamondCloudBoots]
+		# Default: 3
+		# Range: 0 ~ 10
+		jumpBoostLevel = 3
+		# Default: 0.15
+		# Range: 0.0 ~ 5.0
+		speedModifier = 0.15
+		# Default: 0.025
+		# Range: 0.0 ~ 5.0
+		flyingSpeedModifier = 0.025
+		negatesFallDamage = true
+
+	#Netherite Cloud Boots Settings
+	[server.netheriteCloudBoots]
+		# Default: 4
+		# Range: 0 ~ 10
+		jumpBoostLevel = 4
+		# Default: 0.2
+		# Range: 0.0 ~ 5.0
+		speedModifier = 0.2
+		# Default: 0.03
+		# Range: 0.0 ~ 5.0
+		flyingSpeedModifier = 0.03
+		negatesFallDamage = true
+
+	#Cloud Cloud Boots Settings
+	[server.cloudCloudBoots]
+		# Default: 4
+		# Range: 0 ~ 10
+		jumpBoostLevel = 4
+		# Default: 0.15
+		# Range: 0.0 ~ 5.0
+		speedModifier = 0.15
+		# Default: 0.03
+		# Range: 0.0 ~ 5.0
+		flyingSpeedModifier = 0.03
+		negatesFallDamage = true

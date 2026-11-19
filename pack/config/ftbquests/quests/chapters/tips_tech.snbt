@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "tips_tech"
+	group: "035B457CBBF3F45A"
+	icon: {
+		id: "create:wrench"
+	}
+	id: "0DDF371CDF043384"
+	title: "Tips: Tech"
+	images: [ ]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "create:goggles"
+			}
+			id: "84CD2E35E6BE6D93"
+			subtitle: "Tip"
+			title: "&eCreate: goggles and Ponder&r"
+			description: ["Wear Engineer's Goggles to see stress and speed on machines. Hold W while hovering an item in JEI to open its Ponder scene.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "F69E58D13B00BABD"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "create:wrench"
+			}
+			id: "270E66D5EFCEFD7D"
+			subtitle: "Tip"
+			title: "&eCreate: the wrench&r"
+			description: ["Right-click machines with the wrench to rotate them and shift-right-click to pick them up in place.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "ADC9CF9254952FA7"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "mekanism:configurator"
+			}
+			id: "3A1BD2E267A8C14A"
+			subtitle: "Tip"
+			title: "&eMekanism: configuration&r"
+			description: ["Use the Configurator to set machine sides and pipe modes, and the Configuration Card to copy machine settings.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "C1876F7D5039E0E5"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "mekanism:upgrade_speed"
+			}
+			id: "50E7B433A2AB88A8"
+			subtitle: "Tip"
+			title: "&eMekanism: upgrades&r"
+			description: ["Machines accept speed and energy upgrades. Install them from the machine's GUI.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "0992E6500FB8DC4B"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "ae2:certus_quartz_crystal"
+			}
+			id: "CEFA69831A2DF5FA"
+			subtitle: "Tip"
+			title: "&eAE2: start small&r"
+			description: ["A first ME network is a Controller, a drive with a storage cell, and a terminal connected by cables. Add autocrafting later with a pattern provider and a crafting CPU.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "DCDF5409E6A62609"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "fluxnetworks:flux_plug"
+			}
+			id: "B4E8E90E3856E3B4"
+			subtitle: "Tip"
+			title: "&ePower from many mods&r"
+			description: ["Mekanism, Create, Oritech, Modern Industrialization and Powah all use different energy systems. Flux Networks and AppliedFlux can move FE between networks.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "46631BB475558107"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "computercraft:computer_normal"
+			}
+			id: "6A60C985C2C1F393"
+			subtitle: "Tip"
+			title: "&eComputers&r"
+			description: ["CC: Tweaked computers can control Create machines through CC:C Bridge, and read AE2 or inventories through Advanced Peripherals.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "FBD7396ACAA98EEC"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "create_jetpack:jetpack"
+			}
+			id: "8DD3121F2CEC4115"
+			subtitle: "Tip"
+			title: "&eJetpacks&r"
+			description: ["The Mekanism, Oritech and Modern Industrialization jetpacks cannot be crafted in this pack. The Create Jetpack and the Create Stuff 'N Additions jetpacks still can.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "E7C25BE65248ACFF"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "mekanism:atomic_disassembler"
+			}
+			id: "09628DDE8ABF6E26"
+			subtitle: "Tip"
+			title: "&eAtomic Disassembler&r"
+			description: ["The Atomic Disassembler has a harder recipe here. It needs Evolved Mekanism Subatomic Alloy, a Create Precision Mechanism, Oritech Duratium, Modern Industrialization Iridium Plate and Mekanism materials. Check JEI.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "7CAE829629FC5C0D"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "createnuclear:reactor_casing"
+			}
+			id: "2D553A3BBC94B864"
+			subtitle: "Tip"
+			title: "&eCreate Nuclear radiation&r"
+			description: ["Radiation from Create Nuclear items is switched off in this pack.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "0AFACEB1A2CF6E9C"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"constructionwand:core_destruction"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"constructionwand:netherite_wand"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"constructionwand:infinity_wand"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

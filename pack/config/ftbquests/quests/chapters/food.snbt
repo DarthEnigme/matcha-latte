@@ -1,0 +1,200 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "food"
+	group: "CAFC8B80BD3BDDF2"
+	icon: {
+		id: "farmersdelight:cooking_pot"
+	}
+	id: "3D0392629F4571F3"
+	title: "Food and Farming"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "brewinandchewin:keg"
+			}
+			id: "9CC54F7F6610D424"
+			subtitle: "Food and Farming"
+			title: "&bBrewin' And Chewin'&r"
+			description: ["Fermenting drinks and hearty foods.", "Craft or obtain Keg to complete this quest."]
+			tasks: [{
+				id: "E361CE660764EE02"
+				item: { count: 1, id: "brewinandchewin:keg" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "cookingforblockheads:cooking_table"
+			}
+			id: "D168DE60578E064C"
+			subtitle: "Food and Farming"
+			title: "&bCooking for Blockheads&r"
+			description: ["A kitchen that uses the items in connected storage.", "Craft or obtain Cooking Table to complete this quest."]
+			tasks: [{
+				id: "2D7697C08F018A51"
+				item: { count: 1, id: "cookingforblockheads:cooking_table" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "croptopia:frying_pan"
+			}
+			id: "8A2D577B6C2CCCFB"
+			subtitle: "Food and Farming"
+			title: "&bCroptopia&r"
+			description: ["Dozens of new crops, trees and recipes.", "Craft or obtain Frying Pan to complete this quest."]
+			tasks: [{
+				id: "2C7D20DCB31C17F6"
+				item: { count: 1, id: "croptopia:frying_pan" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "7F1C5A219B7E3DDD"
+			subtitle: "Food and Farming"
+			title: "&bCroptopia Delight&r"
+			description: ["Connects Croptopia and Farmer's Delight recipes.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "CD3E721C8ADDC237"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "endersdelight:ender_paella"
+			}
+			id: "39AF0C2085B30DD6"
+			subtitle: "Food and Farming"
+			title: "&bEnder's Delight&r"
+			description: ["Farmer's Delight foods for the End.", "Craft or obtain Ender Paella to complete this quest."]
+			tasks: [{
+				id: "BC7AC08E95133A4F"
+				item: { count: 1, id: "endersdelight:ender_paella" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "3CF871AA91431890"
+			subtitle: "Food and Farming"
+			title: "&bFarmer's Croptopia&r"
+			description: ["More Croptopia recipes for Farmer's Delight tools.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "B25DDE77AA0BA104"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "6F3289B3AA86CA70"
+			subtitle: "Food and Farming"
+			title: "&bFarmer's Delight&r"
+			description: ["Cooking pot, cutting board and meals.", "Craft or obtain Cooking Pot to complete this quest."]
+			tasks: [{
+				id: "0E064D57EFF3F100"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "fruitsdelight:blueberry"
+			}
+			id: "61A72712924FE7B2"
+			subtitle: "Food and Farming"
+			title: "&bFruits Delight&r"
+			description: ["Fruit trees and fruity dishes.", "Craft or obtain Blueberry to complete this quest."]
+			tasks: [{
+				id: "F575C0BB4E821433"
+				item: { count: 1, id: "fruitsdelight:blueberry" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "minersdelight:cave_carrot"
+			}
+			id: "A4223A1E13EC3DBD"
+			subtitle: "Food and Farming"
+			title: "&bMiners Delight&r"
+			description: ["Foods for cave dwellers.", "Craft or obtain Cave Carrot to complete this quest."]
+			tasks: [{
+				id: "F12CD4B9FA58D399"
+				item: { count: 1, id: "minersdelight:cave_carrot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "mynethersdelight:hot_wings"
+			}
+			id: "0EF7FEE5A66F6BAB"
+			subtitle: "Food and Farming"
+			title: "&bMy Nether's Delight&r"
+			description: ["Foods from the Nether.", "Craft or obtain Hot Wings to complete this quest."]
+			tasks: [{
+				id: "58DF4EFE1D4DADCD"
+				item: { count: 1, id: "mynethersdelight:hot_wings" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "productivebees:advanced_oak_beehive"
+			}
+			id: "FA27077ED2FA9735"
+			subtitle: "Food and Farming"
+			title: "&bProductive Bees&r"
+			description: ["Bees that make many different materials.", "Craft or obtain Advanced Oak Beehive to complete this quest."]
+			tasks: [{
+				id: "CE64FB0AFAF103FE"
+				item: { count: 1, id: "productivebees:advanced_oak_beehive" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "starcatcher:starcatcher_rod"
+			}
+			id: "F42A86F799FF0D23"
+			subtitle: "Food and Farming"
+			title: "&bStarcatcher&r"
+			description: ["Extra fishing rods, fish and fishing loot.", "Craft or obtain Starcatcher Rod to complete this quest."]
+			tasks: [{
+				id: "81D1C568BB8793B9"
+				item: { count: 1, id: "starcatcher:starcatcher_rod" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+	]
+}

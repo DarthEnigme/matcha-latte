@@ -1,0 +1,12 @@
+{
+	chapter_groups: [
+		{
+			id: "CAFC8B80BD3BDDF2"
+			title: "Mods"
+		}
+		{
+			id: "035B457CBBF3F45A"
+			title: "Tips"
+		}
+	]
+}

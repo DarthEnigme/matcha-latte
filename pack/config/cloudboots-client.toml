@@ -1,0 +1,4 @@
+#Client-only settings
+[client]
+	#Whether to spawn particles when jumping while wearing Cloud Boots
+	spawnParticles = true

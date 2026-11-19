@@ -1,0 +1,106 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "tips_combat"
+	group: "035B457CBBF3F45A"
+	icon: {
+		id: "minecraft:diamond_sword"
+	}
+	id: "376D7B30D7F2A359"
+	title: "Tips: Combat and Loot"
+	images: [ ]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "apotheosis:gem"
+			}
+			id: "FDB377579EA65B68"
+			subtitle: "Tip"
+			title: "&eGear tooltips&r"
+			description: ["Apotheosis puts affixes on gear and gems into sockets. Read the tooltip rather than guessing.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "11B5E10CBFE773E6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "artifacts:umbrella"
+			}
+			id: "5412EF340BF33040"
+			subtitle: "Tip"
+			title: "&eWearable items&r"
+			description: ["Artifacts, Relics, More Relics and EnigmaticLegacy+ put items in curios slots. Open the Curios tab in your inventory. This pack has extra slots (rings 6, most others 4).", "Click to mark this tip as read."]
+			tasks: [{
+				id: "DE047B75C0C5F50F"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:barrier"
+			}
+			id: "D67BC1E208D00C54"
+			subtitle: "Tip"
+			title: "&eRemoved items&r"
+			description: ["Everlasting Beef, Eternal Steak, Infinite Ham and the Eternal Cake were removed on purpose as reusable food.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "90CF9B771A7C5470"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "silentgear:blueprint_package"
+			}
+			id: "8B52B9EC0517C9EC"
+			subtitle: "Tip"
+			title: "&eCustom tools and armour&r"
+			description: ["Silent Gear lets you build tools and armour out of many materials. Start with a blueprint package.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "EC3576523F93756D"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "bhc:red_heart_canister"
+			}
+			id: "C2C771C3779A3324"
+			subtitle: "Tip"
+			title: "&eHearts&r"
+			description: ["Heart canisters add extra hearts. Colorful Hearts only changes how they look.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "BC4BFF118DC382F3"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "cataclysm:ignitium_ingot"
+			}
+			id: "AF8B94755C87FC9D"
+			subtitle: "Tip"
+			title: "&eBig bosses&r"
+			description: ["Cataclysm adds large bosses and tough structures. Bring good gear before exploring them.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "EB5DD1847A35BBD2"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+}

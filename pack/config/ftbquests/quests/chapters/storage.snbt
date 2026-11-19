@@ -1,0 +1,64 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "storage"
+	group: "CAFC8B80BD3BDDF2"
+	icon: {
+		id: "sophisticatedbackpacks:backpack"
+	}
+	id: "9C66E5620AB6EBBA"
+	title: "Storage"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "functionalstorage:oak_1"
+			}
+			id: "C6FB0294E1F412E5"
+			subtitle: "Storage"
+			title: "&bFunctional Storage&r"
+			description: ["Drawers that store large stacks of items.", "Craft or obtain Oak 1 to complete this quest."]
+			tasks: [{
+				id: "72DBFA2DAB124296"
+				item: { count: 1, id: "functionalstorage:oak_1" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "5E30BAEA9F33D6DE"
+			subtitle: "Storage"
+			title: "&bSophisticated Backpacks&r"
+			description: ["Backpacks with upgrades.", "Craft or obtain Backpack to complete this quest."]
+			tasks: [{
+				id: "4CCD97E954FC49F6"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "sophisticatedstorage:chest"
+			}
+			id: "8A073D4979C4CC0F"
+			subtitle: "Storage"
+			title: "&bSophisticated Storage&r"
+			description: ["Chests, barrels and shulker boxes with upgrades.", "Craft or obtain Chest to complete this quest."]
+			tasks: [{
+				id: "A18BFB64280201F0"
+				item: { count: 1, id: "sophisticatedstorage:chest" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+}

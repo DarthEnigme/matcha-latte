@@ -1,0 +1,372 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "qol"
+	group: "CAFC8B80BD3BDDF2"
+	icon: {
+		id: "minecraft:spyglass"
+	}
+	id: "ED61DE6BBEFABF72"
+	title: "Quality of Life and Performance"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "699478AACABA77C2"
+			subtitle: "Quality of Life and Performance"
+			title: "&bAlmostUnified&r"
+			description: ["Keeps one version of each ore and ingot across mods.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "CF4EA680CCE9A471"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1FCCB58DFB0E3286"
+			subtitle: "Quality of Life and Performance"
+			title: "&bAppleSkin&r"
+			description: ["Shows food and saturation values.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "C95125368D9DD329"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "7CD7F79404C061E3"
+			subtitle: "Quality of Life and Performance"
+			title: "&bConcurrent Chunk Management Engine&r"
+			description: ["Faster chunk generation (C2ME). Alpha.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "F4F56B0A083F7783"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "constructionwand:stone_wand"
+			}
+			id: "5BF9C30B95E59238"
+			subtitle: "Quality of Life and Performance"
+			title: "&bConstruction Wands Revived&r"
+			description: ["Place many blocks at once with a wand.", "Craft or obtain Stone Wand to complete this quest."]
+			tasks: [{
+				id: "D62895A66D253A36"
+				item: { count: 1, id: "constructionwand:stone_wand" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "30DCA93BF1805539"
+			subtitle: "Quality of Life and Performance"
+			title: "&bControlling&r"
+			description: ["Search your key bindings in the controls screen.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "F59364E333AA1E04"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "CC003F627166257F"
+			subtitle: "Quality of Life and Performance"
+			title: "&bDynamic FPS&r"
+			description: ["Lowers the frame rate when the game is not in focus.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "877E47633ABA70FA"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "93A6058CFEC873DC"
+			subtitle: "Quality of Life and Performance"
+			title: "&bEntityCulling&r"
+			description: ["Skips drawing entities you cannot see.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "A9F1E08E4FF311D7"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "8CC7FD1D9C6E808A"
+			subtitle: "Quality of Life and Performance"
+			title: "&bFast Suite&r"
+			description: ["Faster crafting and smelting through batched actions.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "9AEA41BFEFE27F36"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "FA1A6D6C03BC6623"
+			subtitle: "Quality of Life and Performance"
+			title: "&bFerrite Core&r"
+			description: ["Uses less memory.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "CA84B998A0BD5C48"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "3FA2339E385FF807"
+			subtitle: "Quality of Life and Performance"
+			title: "&bFTB Chunks&r"
+			description: ["Claim chunks, keep chunks loaded and see the map.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "BA0B95A3DF1E0497"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "8BE69550B321AA20"
+			subtitle: "Quality of Life and Performance"
+			title: "&bFTB Quests&r"
+			description: ["This quest book.", "Craft or obtain Book to complete this quest."]
+			tasks: [{
+				id: "00295E1D75621D7C"
+				item: { count: 1, id: "ftbquests:book" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "4CFAA8AA96A4F3DF"
+			subtitle: "Quality of Life and Performance"
+			title: "&bFTB Teams&r"
+			description: ["Teams that share claims and quests.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "61B0A77A3130277A"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "08D3A91397418AD6"
+			subtitle: "Quality of Life and Performance"
+			title: "&bFTB XMod Compat&r"
+			description: ["Connects FTB mods with other mods. Works in the background.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "53E39647D03A13A5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "0B4AB2BBC524D744"
+			subtitle: "Quality of Life and Performance"
+			title: "&bImmediatelyFast&r"
+			description: ["Faster rendering of the interface and entities.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "5578915044E2AA18"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "C013BF14F78D5BB4"
+			subtitle: "Quality of Life and Performance"
+			title: "&bInventory Essentials&r"
+			description: ["Better inventory scrolling and sorting.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "49B27D0269C92EE2"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "734C4A306C8B83E6"
+			subtitle: "Quality of Life and Performance"
+			title: "&bIris&r"
+			description: ["Shader pack support. No shader pack ships with this pack.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "CF0C408384BD3ED4"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "F956A687DD89981A"
+			subtitle: "Quality of Life and Performance"
+			title: "&bJade&r"
+			description: ["Shows what block or entity you are looking at.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "07743CA8C6A8FB61"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "B844911E656D9E9A"
+			subtitle: "Quality of Life and Performance"
+			title: "&bJade Addons&r"
+			description: ["More information in Jade.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "65164B5E900382E3"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			id: "B4F95CEED2965038"
+			subtitle: "Quality of Life and Performance"
+			title: "&bJourneymap&r"
+			description: ["A map and waypoints.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "5DE5E9E032DFF7D4"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "354229570C0C4226"
+			subtitle: "Quality of Life and Performance"
+			title: "&bJust Enough Items&r"
+			description: ["Shows all items and recipes. Press R on an item to see how to craft it.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "D3380F445D241F23"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "2BD00C513DE20D1C"
+			subtitle: "Quality of Life and Performance"
+			title: "&bKubeJS&r"
+			description: ["Scripts that change recipes and add content. Used in this pack.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "34C2A1D50AD96807"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "BF5B439E4882F652"
+			subtitle: "Quality of Life and Performance"
+			title: "&bLithium&r"
+			description: ["Server and game logic optimisations.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "63711808A7857D33"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			id: "FF36F98F36DB7BCA"
+			subtitle: "Quality of Life and Performance"
+			title: "&bModernFix&r"
+			description: ["Faster loading and less memory use.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "C429A9777BC486F0"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "8EDD8ADE4AF8727F"
+			subtitle: "Quality of Life and Performance"
+			title: "&bMouse Tweaks&r"
+			description: ["Click and drag tricks in inventories.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "0BBF3423423A5750"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			id: "272D4126D8AFEE68"
+			subtitle: "Quality of Life and Performance"
+			title: "&bNoisium&r"
+			description: ["Faster world generation.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "F9334475D95C22CB"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "59DE4AE5C974C958"
+			subtitle: "Quality of Life and Performance"
+			title: "&bOk Zoomer&r"
+			description: ["A zoom key.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "720840A9100E136B"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "89766B38BDD5BFE7"
+			subtitle: "Quality of Life and Performance"
+			title: "&bScalableLux&r"
+			description: ["Faster lighting.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "9D968AFF1CB7F0DD"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "4348CC5C47C7B6DA"
+			subtitle: "Quality of Life and Performance"
+			title: "&bSodium&r"
+			description: ["A much faster renderer.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "D66B439B50690575"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "324DB5B470B33987"
+			subtitle: "Quality of Life and Performance"
+			title: "&bSodium Extra&r"
+			description: ["More video options for Sodium.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "D031191D93A5AEE8"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+	]
+}

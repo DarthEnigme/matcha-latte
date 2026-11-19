@@ -1,0 +1,336 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "loot"
+	group: "CAFC8B80BD3BDDF2"
+	icon: {
+		id: "artifacts:umbrella"
+	}
+	id: "361BE0B8BD61CC22"
+	title: "Loot, Gear and RPG"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "advancednetherite:netherite_iron_sword"
+			}
+			id: "38E7F2BB93D95ED6"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bAdvanced Netherite&r"
+			description: ["Netherite tools and armour combined with other materials.", "Craft or obtain Netherite Iron Sword to complete this quest."]
+			tasks: [{
+				id: "56369F0D727E60A9"
+				item: { count: 1, id: "advancednetherite:netherite_iron_sword" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "apotheosis:gem"
+			}
+			id: "F6A94C0F60D0F246"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bApotheosis&r"
+			description: ["Affixes on gear, gems, and tougher bosses.", "Craft or obtain Gem to complete this quest."]
+			tasks: [{
+				id: "9D13E25B07FB561D"
+				item: { count: 1, id: "apotheosis:gem" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "5A616B953C820C6D"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bApothic Attributes&r"
+			description: ["Reworked attributes and tooltips. Works in the background.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "34A70BD6E57984A7"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "apothic_enchanting:hellshelf"
+			}
+			id: "B98A217B4EC38731"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bApothic Enchanting&r"
+			description: ["Better enchanting tables and special bookshelves.", "Craft or obtain Hellshelf to complete this quest."]
+			tasks: [{
+				id: "4AFD7A240AF61208"
+				item: { count: 1, id: "apothic_enchanting:hellshelf" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "9BDB046AAEEAB669"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bApothic Spawners&r"
+			description: ["Lets you change what a spawner spawns. Works in the background.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "DB50A188066CD5C1"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "artifacts:umbrella"
+			}
+			id: "F3FA07BF0A09F5FB"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bArtifacts&r"
+			description: ["Rare wearable items found in structures and chests.", "Craft or obtain Umbrella to complete this quest."]
+			tasks: [{
+				id: "8B403A7C1878E421"
+				item: { count: 1, id: "artifacts:umbrella" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "bhc:red_heart_canister"
+			}
+			id: "3B58A66544B6FF5F"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bBaubley Heart Canisters&r"
+			description: ["Heart canisters that give you more health.", "Craft or obtain Red Heart Canister to complete this quest."]
+			tasks: [{
+				id: "4330E806DE2945C1"
+				item: { count: 1, id: "bhc:red_heart_canister" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "cloudboots:iron_cloud_boots"
+			}
+			id: "917186E4C234949F"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bCloud Boots&r"
+			description: ["Boots that give you extra air speed and no fall damage.", "Craft or obtain Iron Cloud Boots to complete this quest."]
+			tasks: [{
+				id: "23BDE76D848F1D53"
+				item: { count: 1, id: "cloudboots:iron_cloud_boots" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "AE6170E9784C6DB7"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bColorful Hearts&r"
+			description: ["A health bar that stacks hearts in colours. Visual only.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "72A574AB05B34168"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "enigmaticlegacyplus:blank_scroll"
+			}
+			id: "91FE3ED0FA362557"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bEnigmaticLegacy+&r"
+			description: ["Powerful curios and a progression of cursed rings.", "Craft or obtain Blank Scroll to complete this quest."]
+			tasks: [{
+				id: "B61BF343A7CB8EEC"
+				item: { count: 1, id: "enigmaticlegacyplus:blank_scroll" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "2C89CDBE9F4BE659"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bExplorer's Compass&r"
+			description: ["Finds structures. The recipe is much harder in this pack.", "Craft or obtain Explorerscompass to complete this quest."]
+			tasks: [{
+				id: "AE4E6715A124A7DB"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "63236E889864CF9C"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bGravestone Curios Compatibility&r"
+			description: ["Keeps your curios in your grave when you die.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "ADC33A505E333B57"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "gravestone:gravestone"
+			}
+			id: "9D98F5FFED61DEA3"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bGravestone Mod&r"
+			description: ["Leaves a grave with your items when you die.", "Craft or obtain Gravestone to complete this quest."]
+			tasks: [{
+				id: "05D207852A3F7CC1"
+				item: { count: 1, id: "gravestone:gravestone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "lootr:lootr_chest"
+			}
+			id: "65B1FF1DAC532B0C"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bLootr&r"
+			description: ["Chests that give each player their own loot.", "Craft or obtain Lootr Chest to complete this quest."]
+			tasks: [{
+				id: "3B21C951E464C1ED"
+				item: { count: 1, id: "lootr:lootr_chest" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "morerelics:gravitum_strider"
+			}
+			id: "91D43741FD9FF00B"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bMore Relics&r"
+			description: ["Extra relics with abilities and levels.", "Craft or obtain Gravitum Strider to complete this quest."]
+			tasks: [{
+				id: "7865034102DC60B3"
+				item: { count: 1, id: "morerelics:gravitum_strider" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "B5CD8CE674DE0DBA"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bNature's Compass&r"
+			description: ["Finds biomes. The recipe is much harder in this pack.", "Craft or obtain Naturescompass to complete this quest."]
+			tasks: [{
+				id: "4A1B78E9B9775AC4"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "paraglider:paraglider"
+			}
+			id: "9AAB87BA750F11D7"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bParaglider&r"
+			description: ["Glide across the world while your stamina lasts.", "Craft or obtain Paraglider to complete this quest."]
+			tasks: [{
+				id: "6AAC379288A61ACE"
+				item: { count: 1, id: "paraglider:paraglider" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "relics:magic_mirror"
+			}
+			id: "71ACDC932043E3C3"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bRelics&r"
+			description: ["Rare relics with levelling abilities.", "Craft or obtain Magic Mirror to complete this quest."]
+			tasks: [{
+				id: "B7FC0BE35403DB82"
+				item: { count: 1, id: "relics:magic_mirror" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "reliquified_twilight_forest:scaled_cloak"
+			}
+			id: "50625770C05E09D5"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bReliquified Twilight Forest&r"
+			description: ["Relics themed around Twilight Forest.", "Craft or obtain Scaled Cloak to complete this quest."]
+			tasks: [{
+				id: "26D28259061083F9"
+				item: { count: 1, id: "reliquified_twilight_forest:scaled_cloak" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "silentgear:blueprint_package"
+			}
+			id: "97508042C56A28EB"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bSilent Gear&r"
+			description: ["Build custom tools and armour from many materials.", "Craft or obtain Blueprint Package to complete this quest."]
+			tasks: [{
+				id: "C39D34992DB0EB66"
+				item: { count: 1, id: "silentgear:blueprint_package" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "solcarrot:food_book"
+			}
+			id: "22117395B2E3E331"
+			subtitle: "Loot, Gear and RPG"
+			title: "&bSpice of Life: Carrot Edition&r"
+			description: ["Tracks the foods you eat. Eating a variety unlocks extra hearts.", "Craft or obtain Food Book to complete this quest."]
+			tasks: [{
+				id: "C30AE3D7F8E55102"
+				item: { count: 1, id: "solcarrot:food_book" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+	]
+}

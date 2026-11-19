@@ -1,0 +1,408 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "create"
+	group: "CAFC8B80BD3BDDF2"
+	icon: {
+		id: "create:cogwheel"
+	}
+	id: "92B80615916859D8"
+	title: "Create and Addons"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "cccbridge:source_block"
+			}
+			id: "6837FCA1D0664D3F"
+			subtitle: "Create and Addons"
+			title: "&bCC:C Bridge&r"
+			description: ["Lets ComputerCraft computers read and control Create machines.", "Craft or obtain Source Block to complete this quest."]
+			tasks: [{
+				id: "F2B71EEC673FC020"
+				item: { count: 1, id: "cccbridge:source_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "create:mechanical_press"
+			}
+			id: "04F55558F5ECC5E1"
+			subtitle: "Create and Addons"
+			title: "&bCreate&r"
+			description: ["The heart of the pack: rotation, belts, presses, trains and automation.", "Craft or obtain Mechanical Press to complete this quest."]
+			tasks: [{
+				id: "20422EB4FFA36E10"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "createcobblestone:mechanical_generator"
+			}
+			id: "16153CF65F45067A"
+			subtitle: "Create and Addons"
+			title: "&bCreate Cobblestone&r"
+			description: ["A simple automatic cobblestone generator for Create.", "Craft or obtain Mechanical Generator to complete this quest."]
+			tasks: [{
+				id: "125808B2F75EF44A"
+				item: { count: 1, id: "createcobblestone:mechanical_generator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "create_confectionery:full_chocolate_bar"
+			}
+			id: "6AFD0B2AA03B6FF7"
+			subtitle: "Create and Addons"
+			title: "&bCreate Confectionery&r"
+			description: ["Chocolate, caramel and candy made with Create machines.", "Craft or obtain Full Chocolate Bar to complete this quest."]
+			tasks: [{
+				id: "5E85159934BF3F33"
+				item: { count: 1, id: "create_confectionery:full_chocolate_bar" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "createaddition:electric_motor"
+			}
+			id: "15DEA094AE3922BD"
+			subtitle: "Create and Addons"
+			title: "&bCreate Crafts & Additions&r"
+			description: ["Adds electricity: motors, alternators, wires and batteries.", "Craft or obtain Electric Motor to complete this quest."]
+			tasks: [{
+				id: "FF839A00E667872B"
+				item: { count: 1, id: "createaddition:electric_motor" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "createdeco:brass_catwalk"
+			}
+			id: "A3A896CE67367F16"
+			subtitle: "Create and Addons"
+			title: "&bCreate Deco&r"
+			description: ["Decorative metal blocks, catwalks, bars and coins.", "Craft or obtain Brass Catwalk to complete this quest."]
+			tasks: [{
+				id: "19EC42967D95A61B"
+				item: { count: 1, id: "createdeco:brass_catwalk" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "createcasing:brass_encased_fan"
+			}
+			id: "47F4ADBF32EA4E30"
+			subtitle: "Create and Addons"
+			title: "&bCreate Encased&r"
+			description: ["More casings and encased versions of Create machines.", "Craft or obtain Brass Encased Fan to complete this quest."]
+			tasks: [{
+				id: "322D22969F080349"
+				item: { count: 1, id: "createcasing:brass_encased_fan" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "createendertransmission:item_transmitter"
+			}
+			id: "0BC9A4647494E258"
+			subtitle: "Create and Addons"
+			title: "&bCreate Ender Transmission&r"
+			description: ["Wireless item, fluid and energy transfer, plus a chunk loader.", "Craft or obtain Item Transmitter to complete this quest."]
+			tasks: [{
+				id: "47A2A913D4AD3973"
+				item: { count: 1, id: "createendertransmission:item_transmitter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "create_jetpack:jetpack"
+			}
+			id: "81981302C5AC63CD"
+			subtitle: "Create and Addons"
+			title: "&bCreate Jetpack&r"
+			description: ["A Create-powered jetpack. Fly with the jump key.", "Craft or obtain Jetpack to complete this quest."]
+			tasks: [{
+				id: "F63BB66658990868"
+				item: { count: 1, id: "create_jetpack:jetpack" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "createnuclear:reactor_casing"
+			}
+			id: "711A1E88CDC4CF33"
+			subtitle: "Create and Addons"
+			title: "&bCreate Nuclear&r"
+			description: ["Nuclear reactors and radiation. Radiation is switched off in this pack.", "Craft or obtain Reactor Casing to complete this quest."]
+			tasks: [{
+				id: "987B44B6E5AF5C79"
+				item: { count: 1, id: "createnuclear:reactor_casing" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "createoreexcavation:vein_finder"
+			}
+			id: "EBA6C0B7584E3122"
+			subtitle: "Create and Addons"
+			title: "&bCreate Ore Excavation&r"
+			description: ["Find ore veins and drill them with an excavation machine.", "Craft or obtain Vein Finder to complete this quest."]
+			tasks: [{
+				id: "176676DA574E852B"
+				item: { count: 1, id: "createoreexcavation:vein_finder" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "createrailwaysnavigator:navigator"
+			}
+			id: "CDBC00E53313B010"
+			subtitle: "Create and Addons"
+			title: "&bCreate Railways Navigator&r"
+			description: ["Train route planning and station displays.", "Craft or obtain Navigator to complete this quest."]
+			tasks: [{
+				id: "192B5989182B04A5"
+				item: { count: 1, id: "createrailwaysnavigator:navigator" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "create_sa:grapplin_whisk"
+			}
+			id: "7BE0437C4A6510BE"
+			subtitle: "Create and Addons"
+			title: "&bCreate Stuff 'N Additions&r"
+			description: ["Extra tools, armour, drones and gadgets for Create.", "Craft or obtain Grapplin Whisk to complete this quest."]
+			tasks: [{
+				id: "81736540385F3D14"
+				item: { count: 1, id: "create_sa:grapplin_whisk" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "39EE1E8EA6AC7FB1"
+			subtitle: "Create and Addons"
+			title: "&bCreate: Addon Compatibility&r"
+			description: ["Small compatibility fixes between Create addons. Works in the background.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "BB9196C4A823F257"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "createappliedkinetics:me_proxy"
+			}
+			id: "A89137068F3B16F4"
+			subtitle: "Create and Addons"
+			title: "&bCreate: Applied Kinetics&r"
+			description: ["Bridges Create and Applied Energistics 2.", "Craft or obtain Me Proxy to complete this quest."]
+			tasks: [{
+				id: "5A129B586E54BD21"
+				item: { count: 1, id: "createappliedkinetics:me_proxy" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "create_connected:centrifugal_clutch"
+			}
+			id: "C102FEF24C8F6C39"
+			subtitle: "Create and Addons"
+			title: "&bCreate: Connected&r"
+			description: ["Extra shafts, clutches, brakes and copycat blocks.", "Craft or obtain Centrifugal Clutch to complete this quest."]
+			tasks: [{
+				id: "44989DB01680A513"
+				item: { count: 1, id: "create_connected:centrifugal_clutch" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "copycats:copycat_slice"
+			}
+			id: "48C72C41EAA6249B"
+			subtitle: "Create and Addons"
+			title: "&bCreate: Copycats+&r"
+			description: ["Many more copycat block shapes that take the look of any block.", "Craft or obtain Copycat Slice to complete this quest."]
+			tasks: [{
+				id: "82D37CC1E1A93DA1"
+				item: { count: 1, id: "copycats:copycat_slice" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "create_dragons_plus:fluid_hatch"
+			}
+			id: "3A00B642D18DFBB3"
+			subtitle: "Create and Addons"
+			title: "&bCreate: Dragons Plus&r"
+			description: ["Dyes, dragon's breath and more fluid processing.", "Craft or obtain Fluid Hatch to complete this quest."]
+			tasks: [{
+				id: "BC63B384BBA034CE"
+				item: { count: 1, id: "create_dragons_plus:fluid_hatch" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "create_enchantment_industry:blaze_enchanter"
+			}
+			id: "C8EF19459130B800"
+			subtitle: "Create and Addons"
+			title: "&bCreate: Enchantment Industry&r"
+			description: ["Automated enchanting, experience and disenchanting.", "Craft or obtain Blaze Enchanter to complete this quest."]
+			tasks: [{
+				id: "29C1DD2F82493F49"
+				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "interiors:black_chair"
+			}
+			id: "9AC564ABEB622115"
+			subtitle: "Create and Addons"
+			title: "&bCreate: Interiors&r"
+			description: ["Chairs, cushions and furniture styled for Create builds.", "Craft or obtain Black Chair to complete this quest."]
+			tasks: [{
+				id: "1171F07682CD4E6F"
+				item: { count: 1, id: "interiors:black_chair" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "create_mechanical_spawner:mechanical_spawner"
+			}
+			id: "304C1DB1E681A26C"
+			subtitle: "Create and Addons"
+			title: "&bCreate: Mechanical spawner&r"
+			description: ["Spawn mobs and collect their loot with Create.", "Craft or obtain Mechanical Spawner to complete this quest."]
+			tasks: [{
+				id: "FD798C90B518812B"
+				item: { count: 1, id: "create_mechanical_spawner:mechanical_spawner" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "create_new_age:basic_motor"
+			}
+			id: "93B7D76F07F1DE18"
+			subtitle: "Create and Addons"
+			title: "&bCreate: New Age&r"
+			description: ["Magnets, motors, heaters and a small reactor.", "Craft or obtain Basic Motor to complete this quest."]
+			tasks: [{
+				id: "03BFA9F262BDE6E1"
+				item: { count: 1, id: "create_new_age:basic_motor" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "powergrid:electric_motor"
+			}
+			id: "7905E748C04B741C"
+			subtitle: "Create and Addons"
+			title: "&bCreate: Power Grid&r"
+			description: ["Detailed electrical circuits and power networks.", "Craft or obtain Electric Motor to complete this quest."]
+			tasks: [{
+				id: "EB8A0F5991A290E4"
+				item: { count: 1, id: "powergrid:electric_motor" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "tfmg:steel_ingot"
+			}
+			id: "53AC8BBA1D8AA87A"
+			subtitle: "Create and Addons"
+			title: "&bCreate: The Factory Must Grow&r"
+			description: ["Industrial chain: oil, steel, engines and heavy machinery.", "Craft or obtain Steel Ingot to complete this quest."]
+			tasks: [{
+				id: "4155028A5C59A303"
+				item: { count: 1, id: "tfmg:steel_ingot" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			id: "C0A804A56B528D80"
+			subtitle: "Create and Addons"
+			title: "&bCreate: Ultimate Factory&r"
+			description: ["Larger, faster machine variants for Create factories.", "This mod works in the background or has no single item. Click to complete once you have read this."]
+			tasks: [{
+				id: "1CC6D23869D5A964"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+}

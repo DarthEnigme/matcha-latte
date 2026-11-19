@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "tips_food"
+	group: "035B457CBBF3F45A"
+	icon: {
+		id: "minecraft:bread"
+	}
+	id: "847D8B2B7BAD1B27"
+	title: "Tips: Food and Farming"
+	images: [ ]
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "8D1500BA928A4BB4"
+			subtitle: "Tip"
+			title: "&eCooking&r"
+			description: ["A cooking pot, cutting board and skillet are the start of Farmer's Delight. Many other food mods build on it.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "90C47C15F45F6F62"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "solcarrot:food_book"
+			}
+			id: "192C7A62EB3107BD"
+			subtitle: "Tip"
+			title: "&eEat different foods&r"
+			description: ["Spice of Life: Carrot Edition tracks what you have eaten. Eating a variety of foods unlocks extra hearts. Use the food book to see your progress.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "76765ABF06C44FFA"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "cookingforblockheads:cooking_table"
+			}
+			id: "2EB012BE970ACD45"
+			subtitle: "Tip"
+			title: "&eKitchens&r"
+			description: ["The Cooking Table crafts using items from nearby storage.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "8FFD7D46AB19D048"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "productivebees:advanced_oak_beehive"
+			}
+			id: "417994B1C34B9288"
+			subtitle: "Tip"
+			title: "&eBees&r"
+			description: ["Productive Bees makes many different materials. Advanced hives hold more bees.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "C64F6002DCBE240B"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "starcatcher:starcatcher_rod"
+			}
+			id: "CFF0D129C0826D16"
+			subtitle: "Tip"
+			title: "&eFishing&r"
+			description: ["Starcatcher adds new rods and fish.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "71AAB5196840F30F"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

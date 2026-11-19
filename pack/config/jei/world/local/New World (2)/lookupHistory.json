@@ -1,0 +1,14 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"createrailwaysnavigator:navigator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"paraglider:heart_container"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"paraglider:stamina_vessel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"paraglider:spirit_orb"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:ingot_steel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:ochrum"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"evolvedmekanism:alloy_singular"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"evolvedmekanism:alloy_subatomic"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"evolvedmekanism:overclocked_purifying_factory"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"evolvedmekanism:alloy_hypercharged"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"evolvedmekanism:overclocked_smelting_factory"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

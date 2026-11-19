@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "tips_storage"
+	group: "035B457CBBF3F45A"
+	icon: {
+		id: "sophisticatedbackpacks:backpack"
+	}
+	id: "82B077F41FACD6F6"
+	title: "Tips: Storage and Extras"
+	images: [ ]
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "EB0B79809EBEF501"
+			subtitle: "Tip"
+			title: "&eBackpacks&r"
+			description: ["Backpacks have upgrade slots. Use the tab on the side to manage them.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "96EAFB10EF13AE87"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "functionalstorage:oak_1"
+			}
+			id: "14CC6AB365221A72"
+			subtitle: "Tip"
+			title: "&eDrawers&r"
+			description: ["Drawers store huge stacks of one item each.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "7C0EA7228DDEF184"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "sophisticatedstorage:chest"
+			}
+			id: "48477A6B26F4A9C5"
+			subtitle: "Tip"
+			title: "&eChests&r"
+			description: ["Sophisticated Storage chests and barrels accept upgrades and can be tiered up.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "306278B37F23ED38"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "0111C866EFA5A061"
+			subtitle: "Tip"
+			title: "&eZoom&r"
+			description: ["Ok Zoomer adds a zoom key. Check the key bindings.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "A6C797D6D773844E"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "458945B9E0AC116B"
+			subtitle: "Tip"
+			title: "&eScripts&r"
+			description: ["KubeJS scripts in this pack change several recipes and remove a few items. Open JEI when a recipe looks different.", "Click to mark this tip as read."]
+			tasks: [{
+				id: "0E9D6B107C0A9200"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

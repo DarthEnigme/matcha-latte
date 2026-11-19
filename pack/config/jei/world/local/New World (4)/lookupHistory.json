@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"oritech:raw_silicon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"oritech:silicon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:silicon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mekanism:ingot_uranium"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

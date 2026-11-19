@@ -1,0 +1,240 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "tech"
+	group: "CAFC8B80BD3BDDF2"
+	icon: {
+		id: "mekanism:metallurgic_infuser"
+	}
+	id: "CF343547CC722F0E"
+	title: "Tech and Energy"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "advancedperipherals:chat_box"
+			}
+			id: "2A10B6CC8EAB7838"
+			subtitle: "Tech and Energy"
+			title: "&bAdvanced Peripherals&r"
+			description: ["More ComputerCraft peripherals, such as chat boxes and detectors.", "Craft or obtain Chat Box to complete this quest."]
+			tasks: [{
+				id: "31AAE2444422C2B0"
+				item: { count: 1, id: "advancedperipherals:chat_box" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "computercraft:computer_normal"
+			}
+			id: "A2792C738E7753BD"
+			subtitle: "Tech and Energy"
+			title: "&bCC: Tweaked&r"
+			description: ["Programmable computers and turtles using Lua.", "Craft or obtain Computer Normal to complete this quest."]
+			tasks: [{
+				id: "36A1AA310E445365"
+				item: { count: 1, id: "computercraft:computer_normal" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "evolvedmekanism:alloyer"
+			}
+			id: "1807F4AC8476489D"
+			subtitle: "Tech and Energy"
+			title: "&bEvolved Mekanism&r"
+			description: ["Extra Mekanism tiers, alloys and machines.", "Craft or obtain Alloyer to complete this quest."]
+			tasks: [{
+				id: "CA8AAF41C5A85B9E"
+				item: { count: 1, id: "evolvedmekanism:alloyer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "fluxnetworks:flux_plug"
+			}
+			id: "7176B21B9B70A7D3"
+			subtitle: "Tech and Energy"
+			title: "&bFlux Networks&r"
+			description: ["Wireless energy networks over any distance.", "Craft or obtain Flux Plug to complete this quest."]
+			tasks: [{
+				id: "75BBBD6BA2BDB02E"
+				item: { count: 1, id: "fluxnetworks:flux_plug" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "jdttimeaccelerators:timeacceleratort1"
+			}
+			id: "22174AC9108DB1BF"
+			subtitle: "Tech and Energy"
+			title: "&bJDT Time Accelerators&r"
+			description: ["Speeds up machines and blocks around it.", "Craft or obtain Timeacceleratort1 to complete this quest."]
+			tasks: [{
+				id: "D8E261ABBBB44092"
+				item: { count: 1, id: "jdttimeaccelerators:timeacceleratort1" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "justdirethings:gooblock_tier1"
+			}
+			id: "8DEEEC5B0E6D82F7"
+			subtitle: "Tech and Energy"
+			title: "&bJust Dire Things&r"
+			description: ["Goo, tools, gadgets and utility machines.", "Craft or obtain Gooblock Tier1 to complete this quest."]
+			tasks: [{
+				id: "B58DC1F3EA742373"
+				item: { count: 1, id: "justdirethings:gooblock_tier1" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "mekanism:enrichment_chamber"
+			}
+			id: "D562F8B0CB5DDDAF"
+			subtitle: "Tech and Energy"
+			title: "&bMekanism&r"
+			description: ["Ore processing chains, power, chemicals and the MekaSuit.", "Craft or obtain Enrichment Chamber to complete this quest."]
+			tasks: [{
+				id: "EFA9EC450DEC8074"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "mekanismadditions:obsidian_tnt"
+			}
+			id: "4A8585F2780602E3"
+			subtitle: "Tech and Energy"
+			title: "&bMekanism: Additions&r"
+			description: ["Extra blocks, plastic and decoration for Mekanism.", "Craft or obtain Obsidian Tnt to complete this quest."]
+			tasks: [{
+				id: "50CC79FB2220713D"
+				item: { count: 1, id: "mekanismadditions:obsidian_tnt" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "mekanismgenerators:wind_generator"
+			}
+			id: "D76CD93F2666DAEB"
+			subtitle: "Tech and Energy"
+			title: "&bMekanism: Generators&r"
+			description: ["Wind, solar, heat and fusion power.", "Craft or obtain Wind Generator to complete this quest."]
+			tasks: [{
+				id: "A535F051B92474FB"
+				item: { count: 1, id: "mekanismgenerators:wind_generator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "mekanismtools:bronze_pickaxe"
+			}
+			id: "4935464BAAE50275"
+			subtitle: "Tech and Energy"
+			title: "&bMekanism: Tools&r"
+			description: ["Bronze, lapis, osmium, refined glowstone and more tools.", "Craft or obtain Bronze Pickaxe to complete this quest."]
+			tasks: [{
+				id: "D8A10829E31E7FC2"
+				item: { count: 1, id: "mekanismtools:bronze_pickaxe" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "modern_industrialization:bronze_boiler"
+			}
+			id: "FF8EB4A17AA4115E"
+			subtitle: "Tech and Energy"
+			title: "&bModern Industrialization&r"
+			description: ["Multiblock machines from steam to quantum tech.", "Craft or obtain Bronze Boiler to complete this quest."]
+			tasks: [{
+				id: "614E4A6A2AE933FA"
+				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "oritech:pulverizer_block"
+			}
+			id: "0A35E7BD32CE5045"
+			subtitle: "Tech and Energy"
+			title: "&bOritech&r"
+			description: ["Machines, lasers and power with a futuristic style.", "Craft or obtain Pulverizer Block to complete this quest."]
+			tasks: [{
+				id: "B42CF868D633EB6E"
+				item: { count: 1, id: "oritech:pulverizer_block" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "pipez:item_pipe"
+			}
+			id: "9EDA5FF2FA94260F"
+			subtitle: "Tech and Energy"
+			title: "&bPipez&r"
+			description: ["Simple pipes for items, fluids, gas and energy.", "Craft or obtain Item Pipe to complete this quest."]
+			tasks: [{
+				id: "C0EC2027D85DB918"
+				item: { count: 1, id: "pipez:item_pipe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "powah:energizing_orb"
+			}
+			id: "4E6267B2E6D24AF2"
+			subtitle: "Tech and Energy"
+			title: "&bPowah&r"
+			description: ["Reactors, energy cells and other power generators.", "Craft or obtain Energizing Orb to complete this quest."]
+			tasks: [{
+				id: "C3F21F2238A13A9E"
+				item: { count: 1, id: "powah:energizing_orb" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+	]
+}

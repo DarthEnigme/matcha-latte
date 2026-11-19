@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"enderio:guardian_diode"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"apotheosis:ignore_conditions_spawner_rune"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:spawner"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:ochrum"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"evolvedmekanism:quantum_control_circuit"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
